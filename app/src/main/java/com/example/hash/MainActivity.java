@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Iterator<String> iteratorT = treeSet.iterator();
                 tree.setText("");
                 while (iteratorT.hasNext()) {
-                    tree.append(iteratorT + "\n");
+                    tree.append(iteratorT.next() + "\n");
                 }
 
                 editText.setText("");
